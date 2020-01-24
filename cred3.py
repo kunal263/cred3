@@ -16,5 +16,6 @@ def cardLuhnChecksumIsValid(card_number):
         sum = sum + digit
 
     return ( (sum % 10) == 0 )
-card=str(input("Enter the card number: "))
-print(cardLuhnChecksumIsValid(card))
+card=3331212237
+if(cardLuhnChecksumIsValid(card)==True):
+    print("Code successfull")
