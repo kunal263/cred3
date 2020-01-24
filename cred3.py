@@ -18,4 +18,5 @@ def cardLuhnChecksumIsValid(card_number):
     return ( (sum % 10) == 0 )
 card=3331212237
 if(cardLuhnChecksumIsValid(card)==True):
-    print("Code successfull")
+    return True
+return False
